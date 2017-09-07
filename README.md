@@ -8,7 +8,16 @@ $ git clone https://github.com/giushansen/90seconds.git
 $ cd 90seconds
 ```
 
-Run the search command for a value in a JSON file (`ruby finder.rb file_path value` )
+Run the search command with a JSON file to find the entities with the passed value
+
+* ruby finder.rb *file_path* *value*
+
+```
+$ ruby finder.rb ./fixtures/users.json "Sri Lanka"
+$ ruby finder.rb ./fixtures/users.json Henrietta
+```
+
+This will return more 3000+ entities! Your screen might not be big enough...
 ```
 $ ruby finder.rb ./fixtures/11200_objects_generated.json strawberry
 ```
