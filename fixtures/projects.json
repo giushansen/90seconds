@@ -1,0 +1,29 @@
+[
+  {
+    "_id": 101,
+    "url": "http://example.com/projects-1",
+    "external_id": "9270ed79-35eb-4a38-a46f-35725197ea8d",
+    "name": "My first project",
+    "tags": [
+      "Exterior",
+      "Workplace Fun"
+    ],
+    "created_at": "2016-05-21T11:10:28 -10:00"
+  },
+  {
+    "_id": 102,
+    "url": "http://example.com/projects-2",
+    "external_id": "7cd6b8d4-2999-4ff2-8cfd-44d05b449226",
+    "name": "Project with HP",
+    "location": [
+      "Melbourne",
+      "Singapore"
+    ],
+    "created_at": "2016-04-07T08:21:44 -10:00",
+    "details": "Non profit",
+    "published": false,
+    "tags": [
+      "Trevino"
+    ]
+  }
+]
